@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 60vh;
+    height: 30vh;
+    background: rgba(128, 128, 128, 0.258);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    height: 70%;
+    width: 90%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+tr,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
