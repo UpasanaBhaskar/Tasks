@@ -1,0 +1,157 @@
+/* For Tablet View */
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    .container {
+        height: 900px;
+        width: 480px;
+        background: #f1f1f1;
+    }
+
+    .row1 {
+        width: 100%;
+        height: 13%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .row1 .r1c1 {
+        flex-grow: 1;
+        background-color: rgb(201, 44, 44);
+        margin: 10px;
+
+    }
+
+    .row1 .r1c2 {
+
+        margin: 10px;
+        background: #0b0b5f;
+        flex-grow: 2;
+    }
+
+    .row2 {
+
+        height: 15%;
+        background: #d2ad0a;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 28%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .row3 .r3c1 {
+        flex-grow: 1;
+        background-color: rgb(72, 195, 20);
+        margin: 10px;
+    }
+
+    .row3 .r3c2 {
+
+        margin: 10px;
+        background: #51145e;
+        flex-grow: 1;
+    }
+
+    .row3 .r3c3 {
+
+        margin: 10px;
+        background: #951fc4;
+        flex-grow: 1;
+    }
+
+    .row4 {
+        width: 100%;
+        height: 19%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .row4 .r4c1 {
+        flex-grow: 1;
+        background-color: rgb(210, 106, 8);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .row4 .r4c2 {
+
+        margin: 10px;
+        background: #ced906;
+        flex-grow: 1;
+        padding: 10px;
+    }
+
+    .row5 {
+        width: 100%;
+        height: 6%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+
+    }
+
+    .row5 .r5c1 {
+        flex-grow: 2;
+        background-color: rgb(25, 91, 28);
+        margin: 10px;
+
+    }
+
+    .row5 .r5c2 {
+
+        margin: 10px;
+        background: #2199bd;
+        flex-grow: 2;
+
+
+    }
+
+    .row51 {
+        width: 100%;
+        height: 6%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+
+    }
+
+
+    .row51 .r5c3 {
+        flex-grow: 2;
+        background-color: rgb(94, 33, 21);
+        margin: 10px;
+
+    }
+
+    .row51 .r5c4 {
+
+        margin: 10px;
+        background: #121ab3;
+        flex-grow: 2;
+
+
+    }
+
+    .row6 {
+        height: 3%;
+        background: #1b1a16;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+
+    }
+
+
+
+
+}
